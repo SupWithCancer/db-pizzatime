@@ -25,7 +25,7 @@
             "category" : "clients_choice",
             "categoryId": 1,
             "productName": "Пепперони",
-            "description": "Пепперони, томатный соус, свежие томаты, сыр",
+            "description": [1, 2, 3],
             "price": 100,
             "images": "img/pizza/1.jpg",
             "relatedProductIds": [2,3] 
@@ -36,7 +36,7 @@
             "category" : "clients_choice",
             "categoryId": 1,
             "productName": "Маргарита",
-            "description":"Свежие томаты, сливочный соус, руккола, сыр",
+            "description":[3, 4, 5],
             "price": 100,
             "images": "img/pizza/1.jpg",
             "relatedProductIds": [1,3] 
@@ -47,7 +47,7 @@
             "category" : "clients_choice",
             "categoryId": 1,
             "productName": "Гавайская",
-            "description": "Курица, ананасы, томатный соус, сыр",
+            "description": [1, 2, 3],
             "price": 120,
             "images": "img/pizza/1.jpg",
             "relatedProductIds": [1,2] 
@@ -58,7 +58,7 @@
             "category" : "standart",
             "categoryId": 2,
             "productName": "Техас",
-            "description": "Ветчина, кукуруза, грибы, соус барбекю лук, сыр",
+            "description":[1, 2, 3],
             "price": 140,
             "images": "img/pizza/1.jpg",
             "relatedProductIds": [5,6,7] 
@@ -69,7 +69,7 @@
             "category" : "standart",
             "categoryId": 2,
             "productName": "Карбонара",
-            "description": "Ветчина, грибы, лук, сливочный соус, сыр",
+            "description": [1, 2, 3],
             "price": 135,
             "images": "img/pizza/1.jpg",
             "relatedProductIds": [4,6,7] 
@@ -80,7 +80,7 @@
             "category" : "standart",
             "categoryId": 2,
             "productName": "Вегетериана",
-            "description": "Грибы, свежие томаты, болгарский перец, оливки, сыр",
+            "description": [1, 2, 3],
             "price": 125,
             "images": "img/pizza/1.jpg",
             "relatedProductIds": [5,4,7] 
@@ -91,7 +91,7 @@
             "category" : "standart",
             "categoryId": 2,
             "productName": "Барбекю",
-            "description": "Ветчина, курица, грибы, лук, соус барбекю, сыр",
+            "description": [1, 2, 3],
             "price": 125,
             "images": "img/pizza/1.jpg",
             "relatedProductIds": [5,6,4] 
@@ -102,7 +102,7 @@
             "category" : "hit",
             "categoryId": 3,
             "productName": "Кантри",
-            "description": "ветчина, огурцы, свежие томаты, грибы, лук, чесночный соус",
+            "description": [1, 2, 3],
             "price": 150,
             "images": "img/pizza/1.jpg",
             "relatedProductIds": [9,10,11,12,13] 
@@ -113,7 +113,7 @@
             "category" : "hit",
             "categoryId": 3,
             "productName": "Вулкано",
-            "description": "сыр, пепперони, перец чили, перец болгарский, лук репчатый, соус барбекю,соус чили",
+            "description": [1, 2, 3],
             "price": 150,
             "images": "img/pizza/1.jpg",
             "relatedProductIds": [8,10,11,12,13] 
@@ -124,7 +124,7 @@
             "category" : "hit",
             "categoryId": 3,
             "productName": "Кальцоне",
-            "description": "Сыр, шампиньоны, сыр дор блю, томаты, ветчина, соус песто, соус маринара ",
+            "description": [1, 2, 3],
             "price": 150,
             "images": "img/pizza/1.jpg",
             "relatedProductIds": [8,9,11,12,13] 
@@ -135,7 +135,7 @@
             "category" : "hit",
             "categoryId": 3,
             "productName": "Четыре сыра",
-            "description": "Cыр дор блю, сыр чеддер, сыр пармезан, сыр моцарелла, груша, грецкий орех, сливочный соус ",
+            "description":[1, 2, 3],
             "price": 150,
             "images": "img/pizza/1.jpg",
             "relatedProductIds": [8,9,10,12,13] 
@@ -146,7 +146,7 @@
             "category" : "hit",
             "categoryId": 3,
             "productName": "ПиззаТайм",
-            "description": "сыр пармезан, шампиньоны, томаты черри и сливки, филе куриное, ветчина, колбаски охотничьи, пепперони, шампиньоны, лук",
+            "description": [1, 2, 3],
             "price": 150,
             "images": "img/pizza/1.jpg",
             "relatedProductIds": [8,9,11,10,13] 
@@ -157,7 +157,7 @@
             "category" : "hit",
             "categoryId": 3,
             "productName": "Баварская",
-            "description": "Сыр моцарелла, соус маринара, колбаски мюнхенские, колбаски охотничьи, огурец соленый, горчица, лук репчатый, лук зеленый",
+            "description": [1, 2, 3],
             "price": 150,
             "images": "img/pizza/1.jpg",
             "relatedProductIds": [8,9,11,12,10] 
@@ -168,7 +168,7 @@
             "category" : "gurme",
             "categoryId": 4,
             "productName": "Атлантика",
-            "description": "Креветки, филе лосося, пармезан, моцарелла, шпинат, томаты, сливки, чеснок",
+            "description": [1, 2, 3],
             "price": 170,
             "images": "img/pizza/1.jpg",
             "relatedProductIds": [15,16] 
@@ -179,7 +179,7 @@
             "category" : "gurme",
             "categoryId": 4,
             "productName": "Берлускони",
-            "description": "Сливочный соус из белых грибов, сыр моцарелла, сыр дор-блю, пармезан, шампиньоны, вешенки, соус чесночный, масло трюфельное, петрушка",
+            "description":[1, 2, 3],
             "price": 170,
             "images": "img/pizza/1.jpg",
             "relatedProductIds": [14,16] 
@@ -190,7 +190,7 @@
             "category" : "gurme",
             "categoryId": 4,
             "productName": "Карибская",
-            "description": " креветки, филе лосося, сыр пармезан, шпинат, томаты, сливки, чеснок, филе куриное , колбаски охотничьи, пепперони, сыр моцарелла, кукуруза, болгарский перец, лук конфитюр, соус BBQ, соус маринара, горчица сыр моцарелла, ананас, болгарский перец, чеснок, соус маринара, соус ВВQ",
+            "description": [1, 2, 3],
             "price": 170,
             "images": "img/pizza/1.jpg",
             "relatedProductIds": [14,15] 
